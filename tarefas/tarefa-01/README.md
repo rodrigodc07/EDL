@@ -1,13 +1,14 @@
 # Tarefa 01
 
-- Cadastrar-se na lista da turma
-    - https://groups.google.com/d/forum/edl-uerj/
+## **RODRIGO DANTAS DA CRUZ**
 
-- Dar um Fork no repositório da disciplina
-    - https://github.com/fsantanna-uerj/EDL/
-    - Habilitar a aba the Issues
-        - http://softwareengineering.stackexchange.com/questions/179468/forking-a-repo-on-github-but-allowing-new-issues-on-the-fork/179470#179470
-    - Adicionar um arquivo tarefa-01/RESPOSTA.md
-        - texto "pessoal" qualquer formatado em Markdown
-        - https://help.github.com/articles/basic-writing-and-formatting-syntax/
-    - Mandar um e-mail para a lista com o link do seu projeto
+- Brasileiro, solteiro, 20 anos
+
+- Email: rodrigodc07@gmail.com
+
+- Tel:2443-5850/Cel:98455-2193
+
+- Cursando Bacharelado 5º período UERJ Ciências da Computação.
+
+- Técnico em Informática Centro Federal de Educação Tecnológica –CEFET-RJ. Aprovado em 12º Lugar no concurso de admissão. Concluído em 2014
+-   Estagiario do MPF desde 2015
