@@ -19,14 +19,25 @@ Além disso, trata-se de uma linguagem de uso geral, podendo ser usada para dese
    var stringVar2 = "Ola Mundo"
 ```
 
-
-
 ## Comparação com Outras linguagens
 Swift é uma linguagem que possui características inspiradas nas principais linguagens de programação atuais, buscando obter o máximo de expressividade ao utilizar o que há de melhor em cada uma delas. Porém, ela também possui suas próprias expressividades particulares.
 De acordo com as pesquisas realizadas sobre sua versão 2.0, Swift possui um desempenho muito melhor do que o Objective-C e Python, além de possuir uma performance média quase na mesma velocidade de C++.
 
 ### Read/Write:
 O principal objetivo do swift é ser uma linguagem de fácil escrita, e isso pode ser observado pela simplicidade da linguagem, onde com apenas algumas linhas de código podemos escrever programas completos,Porém como ela apresenta alguns paradigmas diferentes das linguagens mais convencionais como (quais paradigmas) ,sua leitura pode acabar se tornando algo mais complicado em certos programas, e essa simplicidade dos códigos atrapalha aqueles que estão começando com a linguagem, tornando C e Java por exemplo linguagens de leitura mais fácil.Já quando falamos de escrita Swift é uma linguagem bastante simples assim como Python e Java já que a linguagem possui uma série de vantagens na sua sintaxe tornando a elaboração de códigos bem mais simples daqueles em C.
+
+```
+if let name = readLine() {
+    print("Hello, \(name)!")
+} 
+```
+```
+if let typed = readLine() {
+  if let num = Int(typed) {
+      print(num)
+  }
+}
+```
 
 ### Swift vs C
 Apesar de possuir grande parte de sua estrutura básica similar à linguagens baseadas em C, Swift possui um grande número de diferenças e funcionalidade extras, principalmente em comportamentos que são conhecidos como grandes geradores de erros. Algumas das principais diferenças são:
@@ -42,9 +53,118 @@ Grande parte da capacidade de Swift de gerar códigos enxutos e de fácil entend
 * Swift apresenta uma tipagem forte e estática, com suporte a constante, o que já não ocorre em Python, que permite até mesmo listas com tipos diversos e mudança nos tipos das variáveis.
 * Ambas as linguagens trabalham funções de forma similar, inclusive dando suporte a múltiplos valores de retorno.
 
+Tipagem em Python vs Swift
+```
+# Python
+name = "Felipe" # string variable, but can change
+name = 42        # would run
+n = 42           # currently an int
+d = 42.0         # currently a float
+```
+```
+// Swift
+var name = "Felipe" // string
+name = 42            // Error
+var n = 42           // int
+var d = 42.0         // double
+```
+
+Funções retornando múltiplos valores em Swift vs Python
+```
+// Swift
+func compareMinMax(a: Int, b: Int) -> (min: Int, max: Int) {
+    
+    if a > b {
+        return (b, a)
+    } else {
+        return (a, b)
+    }
+}
+var (a, b) = compareMinMax(10,20)
+```
+```
+#Python
+def compareMinMax(a,b):
+    if a > b:
+        return (a,b)
+    else :
+        return (b,a)
+        
+a,b = compareMinMax(10,20)
+```
+
 ### Swift vs Java
 A principal comparação que pode ser feita com relação a Java é quanto a redigibilidade. Swift é uma linguagem que não necessita de muitas linhas de código para expressar pequenas funcionalidades, já que não necessita sempre de uma função `main` e de classes, podendo funcionar como uma linguagem de script quando necessário. 
 Outro ponto de diferenças entre elas é em relação à inferência de tipos presente em Swift e o retorno de valores múltiplos, ambos não suportados em Java. Por outro lado, o comportamento relativo a Strings e objetos é semelhante em ambas as linguagens, já que Swift inclusive conta com alguns conceitos como herança e interface que são extremamente presentes em Java. Além disso, Swift apresenta alguns novos recurso em relação a objetos como por exemplo o conceito de protocolos.
+
+Código Hello world 
+```
+//Swift
+print("Hello, world!")
+```
+```
+#Java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+```
+
+Comparando tipagem 
+```
+// Swift
+let e: Int = 5
+var a = 5.678; // implicit Double
+a = a + Double(e)
+print("\(e) \(a)")
+```
+```
+# Java
+public class Typing {
+       public static void main(String[] args) {
+        final int e = 5;
+        double a = 5.678;
+        a = a + e;
+        System.out.println(e + " " + a);
+    }
+}
+```
+
+Classes em Swift vs Java
+``` 
+//Swift
+class Nome {
+    var name: String
+    init(name: String) {
+        self.name = name
+    }
+}
+ 
+let aClass = SomeClass(favLang: "Felipe")
+let bClass = aClass
+bClass.favLang = "Rodrigo"
+print(aClass.favLang) // "Rodrigo"
+print(bClass.favLang) // "Rodrigo"
+```
+```
+//Java
+public class SomeClass {
+    public String name;
+    public SomeClass(String name) {
+        this.name = name;
+    }
+}
+public class Program {
+    public static void main(String[] args) {
+        final SomeClass aClass = new SomeClass("Felipe");
+        final SomeClass bClass = aClass;
+        aClass.favLang = "Rodrigo";
+        System.out.println(aClass.favLang); // "Rodrigo"
+        System.out.println(bClass.favLang); // "Rodrigo"
+    }
+}
+```
 ### Protocolos
 Em swift existe a ideia de protocolos, que nada mais é do que um escopo que define tanto métodos quanto propriedades a uma classes ou a uma estrutura existente, sempre lembrando que para estar em conformidade com um protocolo uma classes ou estrutura deve todas as suas funcionalidade devem ser implementadas,possuindo assim mesma funcionalidade da herança orientação a objetos do Java porém sem nenhuma associação fortemente vinculada.
 ``` swift
@@ -66,107 +186,9 @@ struct Car: Drivable, Reversible, Transport {
     var seatCount = 5
 }
 ```
-### Tipos
-## Conclusão
-## Exemplos de Códigos 
+### Tipos Opcionais
 
-Código Hello world Swift vs Java
-```
-print("Hello, world!")
-```
-```
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, world!");
-    }
-}
-```
-Comparando tipagem Swift com Java e Python
-```
-# Swift
-let e: Int = 5
-var a = 5.678; // implicit Double
-a = a + Double(e)
-print("\(e) \(a)")
 
-# Java
-public class HelloWorld {
-       public static void main(String[] args) {
-        final int e = 5;
-        double a = 5.678;
-        a = a + e;
-        System.out.println(e + " " + a);
-    }
-}
-```
-```
-# Python
-name = "Felipe" # string variable, but can change
-name = 42        # would run
-n = 42           # currently an int
-d = 42.0         # currently a float
- 
-// Swift
-var name = "Felipe" // string
-name = 42            // Error
-var n = 42           // int
-var d = 42.0         // double
-```
-Funções em Swift vs Python
-```
-#Swift
-func compareMinMax(a: Int, b: Int) -> (min: Int, max: Int) {
-    
-    if a > b {
-        return (b, a)
-    } else {
-        return (a, b)
-    }
-}
-var (a, b) = compareMinMax(10,20)
-
-#Python
-def compareMinMax(a,b):
-    if a > b:
-        return (a,b)
-    else :
-        return (b,a)
-        
-a,b = compareMinMax(10,20)
-```
-Classes em Swift vs Java
-```
-class SomeClass {
-    var favLang: String
-    init(favLang: String) {
-        self.favLang = favLang
-    }
-}
- 
-let aClass = SomeClass(favLang: "Assembler")
-let bClass = aClass
-bClass.favLang = "Swift"
-print(aClass.favLang) // "Swift"
-print(bClass.favLang) // "Swift"
-```
-```
-public class SomeClass {
-    public String favLang;
-    public SomeClass(String favLang) {
-        this.favLang = favLang;
-    }
-}
-
-public class Program {
-    public static void main(String[] args) {
-        final SomeClass aClass = new SomeClass("Assembler");
-        final SomeClass bClass = aClass;
-        aClass.favLang = "Swift";
-        System.out.println(aClass.favLang); // "Swift"
-        System.out.println(bClass.favLang); // "Swift"
-    }
-}
-```
 Optional Values em Swift 
 ```
 let possibleNumber:String = 123
@@ -195,7 +217,7 @@ print(d!) // "123"
 // print(e!) // not allowed
 print(f!) // "123"
 
-let noNumber = "🐥"
+let noNumber = "hello"
 let g:Int! = Int(noNumber)
 
 print(g)  // "nil"
@@ -218,6 +240,8 @@ if (house != null) {
 }
 
 ```
+## Conclusão
+
 ## Bibliografia
 
 https://pt.wikipedia.org/wiki/Swift_(linguagem_de_programa%C3%A7%C3%A3o)
