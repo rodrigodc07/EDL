@@ -207,7 +207,7 @@ struct Car: Drivable, Reversible, Transport {
     var seatCount = 5
 }
 ```
-### Tipos Opcionais
+### Tipos e Métodos Opcionais
 
 
 Optional Values em Swift 
