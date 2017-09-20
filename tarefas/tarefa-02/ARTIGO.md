@@ -1,3 +1,4 @@
+![Rust Banner](Imagens/download.png)
 # Swift (linguagem de programação)
 
 ## Sobre o Swift
