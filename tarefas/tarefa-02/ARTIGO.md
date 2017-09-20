@@ -26,10 +26,12 @@ De acordo com as pesquisas realizadas sobre sua versão 2.0, Swift possui um des
 ### Read/Write:
 O principal objetivo do swift é ser uma linguagem de fácil escrita, e isso pode ser observado pela simplicidade da linguagem, onde com apenas algumas linhas de código podemos escrever programas completos,Porém como ela apresenta alguns paradigmas diferentes das linguagens mais convencionais como (quais paradigmas) ,sua leitura pode acabar se tornando algo mais complicado em certos programas, e essa simplicidade dos códigos atrapalha aqueles que estão começando com a linguagem, tornando C e Java por exemplo linguagens de leitura mais fácil.Já quando falamos de escrita Swift é uma linguagem bastante simples assim como Python e Java já que a linguagem possui uma série de vantagens na sua sintaxe tornando a elaboração de códigos bem mais simples daqueles em C.
 
-```
-if let name = readLine() {
-    print("Hello, \(name)!")
-} 
+``` swift
+
+var carros: String[] = ["Fusca", "Fiat 147", "Opala", "Outros"]
+for Carro in carros {
+   println(Carro)
+}
 ```
 ```
 if let typed = readLine() {
@@ -49,7 +51,7 @@ Apesar de possuir grande parte de sua estrutura básica similar à linguagens ba
 
 
 Código fatorial recursivo em Swift vs C
-``` 
+``` swift
 //Swift 
 func factorial(n: UInt32) -> UInt64 {
     if n == 0 {
@@ -58,7 +60,8 @@ func factorial(n: UInt32) -> UInt64 {
         return n * factorial(n - 1)
     }
 }
-
+``` 
+``` C
 //C
 long factorial(int n){
   if (n == 0)
@@ -75,14 +78,14 @@ Grande parte da capacidade de Swift de gerar códigos enxutos e de fácil entend
 * Ambas as linguagens trabalham funções de forma similar, inclusive dando suporte a múltiplos valores de retorno.
 
 Tipagem em Python vs Swift
-```
+``` Python
 # Python
 name = "Felipe" # string variable, but can change
 name = 42        # would run
 n = 42           # currently an int
 d = 42.0         # currently a float
 ```
-```
+``` swift
 // Swift
 var name = "Felipe" // string
 name = 42            // Error
@@ -91,7 +94,7 @@ var d = 42.0         // double
 ```
 
 Funções retornando múltiplos valores em Swift vs Python
-```
+``` Swift
 // Swift
 func compareMinMax(a: Int, b: Int) -> (min: Int, max: Int) {
     
@@ -103,7 +106,7 @@ func compareMinMax(a: Int, b: Int) -> (min: Int, max: Int) {
 }
 var (a, b) = compareMinMax(10,20)
 ```
-```
+``` Python
 #Python
 def compareMinMax(a,b):
     if a > b:
@@ -119,11 +122,11 @@ A principal comparação que pode ser feita com relação a Java é quanto a red
 Outro ponto de diferenças entre elas é em relação à inferência de tipos presente em Swift e o retorno de valores múltiplos, ambos não suportados em Java. Por outro lado, o comportamento relativo a Strings e objetos é semelhante em ambas as linguagens, já que Swift inclusive conta com alguns conceitos como herança e interface que são extremamente presentes em Java. Além disso, Swift apresenta alguns novos recurso em relação a objetos como por exemplo o conceito de protocolos.
 
 Código Hello world 
-```
+``` Swift
 //Swift
 print("Hello, world!")
 ```
-```
+``` Java
 #Java
 public class HelloWorld {
     public static void main(String[] args) {
@@ -133,14 +136,14 @@ public class HelloWorld {
 ```
 
 Comparando tipagem 
-```
+```Swift
 // Swift
 let e: Int = 5
 var a = 5.678; // implicit Double
 a = a + Double(e)
 print("\(e) \(a)")
 ```
-```
+``` Java
 # Java
 public class Typing {
        public static void main(String[] args) {
@@ -153,7 +156,7 @@ public class Typing {
 ```
 
 Classes em Swift vs Java
-``` 
+``` Swift
 //Swift
 class Nome {
     var name: String
@@ -168,7 +171,7 @@ bClass.name = "Rodrigo"
 print(aClass.name) // "Rodrigo"
 print(bClass.name) // "Rodrigo"
 ```
-```
+```Java
 //Java
 public class SomeClass {
     public String name;
@@ -211,7 +214,7 @@ struct Car: Drivable, Reversible, Transport {
 
 
 Optional Values em Swift 
-```
+```Swift
 let possibleNumber:String = 123
 let convertedNumber = Int(possibleNumber) // returns an optional value
 if convertedNumber != nil {
@@ -246,10 +249,11 @@ print(g!) // fatal error: unexpectedly found nil while unwrapping an Optional va
 ```
 
 Optional values em Swift vs Java 
-```
+```Swift
 # Swift
 winSize = house?.windows?.get(2)?.size
-
+```
+```Java
 #Java
 if (house != null) {
     windows = house.windows;
