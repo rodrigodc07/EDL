@@ -51,11 +51,11 @@ Apesar de possuir grande parte de sua estrutura básica similar à linguagens ba
 Código fatorial recursivo em Swift vs C
 ``` 
 //Swift 
-func factorial(number: UInt32) -> UInt64 {
-    if number == 0 {
+func factorial(n: UInt32) -> UInt64 {
+    if n == 0 {
         return 1
     } else {
-        return number * factorial(number - 1)
+        return n * factorial(n - 1)
     }
 }
 
