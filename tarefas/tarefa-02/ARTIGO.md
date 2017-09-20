@@ -47,6 +47,27 @@ Apesar de possuir grande parte de sua estrutura básica similar à linguagens ba
 * As variáveis e constantes sempre são inicializadas e os limites da matriz sempre são verificados;
 * O formulário de uma declaração de `if` e `while`, que permite a omissão de chaves ao redor da instrução, não é suportado;
 
+
+Código fatorial recursivo em Swift vs C
+``` 
+//Swift 
+func factorial(number: UInt32) -> UInt64 {
+    if number == 0 {
+        return 1
+    } else {
+        return number * factorial(number - 1)
+    }
+}
+
+//C
+long factorial(int n){
+  if (n == 0)
+    return 1;
+  else
+    return(n * factorial(n-1));
+}
+``` 
+
 ### Swift vs Python
 Grande parte da capacidade de Swift de gerar códigos enxutos e de fácil entendimento deve-se a uma sintaxe muito similar à de Python. Porém suas comparações não estão restritas a esse aspecto da linguagem:
 * A forma de declarar e lidar com strings e arrays nas duas linguagens, com uma visão mais parecida com listas, é extremamente similar;
@@ -141,11 +162,11 @@ class Nome {
     }
 }
  
-let aClass = SomeClass(favLang: "Felipe")
+let aClass = SomeClass(name: "Felipe")
 let bClass = aClass
-bClass.favLang = "Rodrigo"
-print(aClass.favLang) // "Rodrigo"
-print(bClass.favLang) // "Rodrigo"
+bClass.name = "Rodrigo"
+print(aClass.name) // "Rodrigo"
+print(bClass.name) // "Rodrigo"
 ```
 ```
 //Java
@@ -160,8 +181,8 @@ public class Program {
         final SomeClass aClass = new SomeClass("Felipe");
         final SomeClass bClass = aClass;
         aClass.favLang = "Rodrigo";
-        System.out.println(aClass.favLang); // "Rodrigo"
-        System.out.println(bClass.favLang); // "Rodrigo"
+        System.out.println(aClass.name); // "Rodrigo"
+        System.out.println(bClass.name); // "Rodrigo"
     }
 }
 ```
