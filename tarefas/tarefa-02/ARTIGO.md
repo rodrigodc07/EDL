@@ -33,8 +33,7 @@ var carros: String[] = ["Fusca", "Fiat 147", "Opala", "Outros"]
 for Carro in carros {
    println(Carro)
 }
-```
-```
+
 if let typed = readLine() {
   if let num = Int(typed) {
       print(num)
@@ -191,7 +190,8 @@ public class Program {
 }
 ```
 ### Protocolos
-Em swift existe a ideia de protocolos, que nada mais é do que um escopo que define tanto métodos quanto propriedades a uma classes ou a uma estrutura existente, sempre lembrando que para estar em conformidade com um protocolo uma classes ou estrutura deve todas as suas funcionalidade devem ser implementadas,possuindo assim mesma funcionalidade da herança orientação a objetos do Java porém sem nenhuma associação fortemente vinculada.
+Em swift existe a ideia de protocolos, que nada mais é do que um escopo que define tanto métodos quanto propriedades a uma classe ou a uma estrutura existente, sempre lembrando que para estar em conformidade com um protocolo uma classe ou estrutura deve todas as suas funcionalidades devem ser implementadas, possuindo assim uma funcionalidade similar a herança na orientação a objetos do Java porém sem nenhuma associação fortemente vinculada, além disso o conceito de herança se estende não só a classes como também para struct e enums, enquanto heranças são restritas a classes, vale lembrar que com protocolos podemos implementar o conceito de múltiplas heranças algo que não existe em algumas linguagens de programação.
+
 ``` swift
 protocol Drivable {
     var topSpeed: Int { get }
