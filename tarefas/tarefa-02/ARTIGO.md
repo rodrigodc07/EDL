@@ -271,6 +271,8 @@ if (house != null) {
 
 ```
 ## Conclusão
+Swift é uma linguagem inovadora que apresenta inumares novas funcionalidades, mesmo assim não perde a simplicidade das linguagens na qual foi inspirada, tornando a vida dos programadores de swift muitos mais fácil.
+Seja através da implementação de tipos opcionais, ou pela sua programação orientada a protocolos swift, ou de outras funcionalidades oferece um grande poder expressividade tornando códigos que antes eram complexos em outras linguagens extremamente simples
 
 ## Bibliografia
 
