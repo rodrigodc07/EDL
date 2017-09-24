@@ -7,9 +7,8 @@ Sua construção visa a elaboração de códigos mais enxutos e mais resilientes
 ## Origens e Influências
 O desenvolvimento da linguagem Swift pela Apple começou em julho de 2010, com o programador Chris Lattner liderando o projeto. Em 2014 na Conferência Mundial de Desenvolvedores da Apple (**WWDC**), ocorreu a divulgação de uma versão beta da linguagem para desenvolvedores registrados Apple, juntamente com seu manual gratuito.
 
-Sua primeira versão foi oficialmente lançada em setembro de 2014, sendo submetidas atualizações para a versão 1.1 em outubro e 1.2 em abril do ano seguinte. Na WWDC 2015 foi anunciada uma atualização mais importante para Swift 2.0, sendo disponibilizada em setembro do mesmo ano e se tornando uma linguagem de código aberto em dezembro. Swift 3.0 foi lançado em 13 de setembro de 2016.
+Sua primeira versão foi oficialmente lançada em setembro de 2014, sendo submetidas atualizações para a versão 1.1 em outubro e 1.2 em abril do ano seguinte. Na WWDC 2015 foi anunciada uma atualização mais importante para Swift 2.0, sendo disponibilizada em setembro do mesmo ano e se tornando uma linguagem de código aberto em dezembro. Swift 3.0 foi lançado em 13 de setembro de 2016.Atualmente, Swift encontra-se na sua versão 4.0, oficialmente lançada em 19 de setembro de 2017.
 
-Atualmente, Swift encontra-se na sua versão 4.0, oficialmente lançada em 19 de setembro de 2017.
 De acordo com o próprio desenvolvedor, Swift foi influenciada por diversas linguagens, buscando inspiração principalmente nas seguintes: **Objective-C**, **Rust**, **Haskell**, **Ruby**, **Python**, **C#**, **CLU**.
 ## Classificação
 Swift é uma linguagem de programação compilada e multiparadigma, sendo extremamente versátil e dando suporte aos seguintes tipos de programação:
@@ -121,7 +120,7 @@ a,b = compareMinMax(10,20)
 ```
 
 ### Swift vs Java
-A principal comparação que pode ser feita com relação a Java é quanto a redigibilidade. Swift é uma linguagem que não necessita de muitas linhas de código para expressar pequenas funcionalidades, já que não necessita sempre de uma função `main` e de classes, podendo funcionar como uma linguagem de script quando necessário. 
+A principal comparação que pode ser feita com relação a Java é quanto a redigibilidade. Swift é uma linguagem que não necessita de muitas linhas de código para expressar pequenas funcionalidades, já que não necessita sempre de uma função `main` e de classes, podendo funcionar como uma linguagem de script quando necessário.
 Outro ponto de diferenças entre elas é em relação à inferência de tipos presente em Swift e o retorno de valores múltiplos, ambos não suportados em Java. Por outro lado, o comportamento relativo a Strings e objetos é semelhante em ambas as linguagens, já que Swift inclusive conta com alguns conceitos como herança e interface que são extremamente presentes em Java. Além disso, Swift apresenta alguns novos recurso em relação a objetos como por exemplo o conceito de protocolos.
 
 Código Hello world 
@@ -194,7 +193,9 @@ public class Program {
 ```
 ### Protocolos
 Em swift existe a ideia de protocolos, que nada mais é do que um escopo que define tanto métodos quanto propriedades a uma classe ou a uma estrutura existente, sempre lembrando que para estar em conformidade com um protocolo, uma classe ou estrutura deve ter todas as suas funcionalidades implementadas. Os protocolos possuem uma funcionalidade similar à herança na orientação a objetos do Java porém sem nenhuma associação fortemente vinculada, além disso o conceito de protocolos se estende não só a classes como também para structs e enums, enquanto heranças são restritas a classes. 
+
 Vale lembrar também que com protocolos podemos implementar o conceito de múltiplas heranças, algo que em algumas linguagens de programação não existe. Esse aspecto dos protocolos faz com que seu comportamento se assemelhe bastante também com o conceito de Interfaces em Java, porém possuindo mais funcionalidades do que estas, como a implementação de métodos padrões e métodos opcionais (aspectos que ajudam na redução de códigos duplicados ou desnecessários). 
+
 Protocolos são tão importantes e possuem um poder de expressão tão grande, que um novo paradigma de programação denominado **programação orientada a protocolos** passou a ser utilizado por muitos desenvolvedores nos últimos anos.
 
 ``` swift
@@ -222,7 +223,9 @@ Em swift temos a implementação do opcional, que é um tipo por conta própria,
 *	Se o opcional contém um valor "nulo" todas as suas suas propriedades relacionadas, métodos e subscritos retornam nil.
 
 Em Swift, ao criarmos variáveis de um determinado tipo, sem atribuir valores a ela que sabemos ser do tipo correto, estamos na realidade criando uma variável de tipo opcional, ou seja, ao realizarmos operações nessa varíavel que possa vir a gerar valores diferentes do tipo esperado, a sintaxe da linguagem obriga o código a testar se o valor retornado foi adequado.
+
 Isso implica que tipos não-opcionais não podem resultar em um erro de ponteiro nulo,com o compilador podendo garantir que isso não é possível. A aplicação desses tipos opcionais na linguagem diminui a incidência de erros causados pela falta de checagem quanto ao retorno de valores de tipos não esperados, que muitas vezes causam resultados inesperados.
+
 Para facilitar a integração da linguagem com esses recursos de tipos opcionais, foram desenvolvidos dois operadores ```?``` e ```!```, onde o primeiro indica que trata-se de um tipo opcional, que deve ser testado quanto a um possível valor ```nil```, e o segundo mostra o valor do opcional quando sabemos que esse valor existe e desejamos acessá-lo. Podemos utilizar também o ```?```, para tentar acessar uma varíavel de uma instância que pode não possuir um valor esperado, indicando que nesse caso desejamos testar se há o retorno esperado ou um valor vazio. Esses operadores facilitam a escrita de um código mais enxuto, porém podem vir a atrapalhar a leitura do código em algumas situações.
 
 Optional Values em Swift 
@@ -278,8 +281,8 @@ if (house != null) {
 
 ```
 ## Conclusão
-Swift é uma linguagem inovadora que apresenta inumares novas funcionalidades, mesmo assim não perde a simplicidade das linguagens na qual foi inspirada, tornando a vida dos programadores de swift muitos mais fácil.
-Seja através da implementação de tipos opcionais, ou pela sua programação orientada a protocolos swift, ou de outras funcionalidades oferece um grande poder expressividade tornando códigos que antes eram complexos em outras linguagens extremamente simples
+Swift é uma linguagem inovadora que apresenta inumeras novas funcionalidades, mesmo assim não perde a simplicidade das linguagens na qual foi inspirada, tornando a vida dos programadores de Swift muitos mais fácil.
+Seja através da implementação de tipos opcionais, pela sua programação orientada a protocolos, ou de outras funcionalidades que oferecem um grande poder expressividade, Swift tem a capacidad de tornar códigos que antes eram complexos em outras linguagens, extremamente simples.
 
 ## Bibliografia
 
