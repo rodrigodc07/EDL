@@ -99,7 +99,6 @@ Funções retornando múltiplos valores em Swift vs Python
 ``` Swift
 // Swift
 func compareMinMax(a: Int, b: Int) -> (min: Int, max: Int) {
-    
     if a > b {
         return (b, a)
     } else {
@@ -112,9 +111,9 @@ var (a, b) = compareMinMax(10,20)
 #Python
 def compareMinMax(a,b):
     if a > b:
-        return (a,b)
-    else :
         return (b,a)
+    else :
+        return (a,b)
         
 a,b = compareMinMax(10,20)
 ```
