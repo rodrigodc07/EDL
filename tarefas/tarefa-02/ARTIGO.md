@@ -288,9 +288,13 @@ Seja através da implementação de tipos opcionais, pela sua programação orie
 ## Bibliografia
 
 [Swift-Wikipedia](https://pt.wikipedia.org/wiki/Swift_(linguagem_de_programa%C3%A7%C3%A3o))
+
 [Comparison of multi-paradigm programming languages-Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_multi-paradigm_programming_languages)
+
 [Comparison of Swift 2](https://blog.novatec-gmbh.de/swift-2-introduction-comparison/)
+
 [Comparison of Python and Swift](https://blog.michaelckennedy.net/2014/11/26/comparison-of-python-and-apples-swift-programming-language-syntax/)
+
 [Documentation of Swift-Apple](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/)
 
 
