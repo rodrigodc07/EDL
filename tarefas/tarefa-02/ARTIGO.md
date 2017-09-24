@@ -215,8 +215,8 @@ struct Car: Drivable, Reversible, Transport {
 Em swift temos a implementação do opcional, que é um tipo por conta própria, na verdade, um dos novos enums mais poderosos de Swift, quando declaramos um tipo como opcional ele pode ter dois comportamentos:
 *	Se o opcional contém um 'valor', em seguida, chamando os seus bens relacionados, métodos e subscritos retorna seu valor.
 *	Se o opcional contém um valor "nulo" todas as suas suas propriedades relacionadas, métodos e subscritos retorna nil.
-Desde várias consultas para métodos, propriedades e subscritos são agrupados falta de uma cadeia irá afetar toda a cadeia e resulta em valor nil.
-
+Isso implica que tipos não-opcionais não podem resultar em um erro de ponteiro nulo, o compilador pode garantir isso não é possível.
+Quando você sabe que um opcional tem um valor e você deseja usar esse valor, um ponto de exclamação mostra o valor do opcional.
 
 Optional Values em Swift 
 ```Swift
