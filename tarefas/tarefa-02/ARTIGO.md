@@ -6,7 +6,9 @@ Swift é uma linguagem de programação criada pela *Apple Inc*. para desenvolvi
 Sua construção visa a elaboração de códigos mais enxutos e mais resilientes à erros, com otimizações no desempenho e uma alta expressividade. Além disso foi projetada para trabalhar com os frameworks da Apple, Cocoa e Cocoa touch, e com códigos em Objective-C. 
 ## Origens e Influências
 O desenvolvimento da linguagem Swift pela Apple começou em julho de 2010, com o programador Chris Lattner liderando o projeto. Em 2014 na Conferência Mundial de Desenvolvedores da Apple (**WWDC**), ocorreu a divulgação de uma versão beta da linguagem para desenvolvedores registrados Apple, juntamente com seu manual gratuito.
+
 Sua primeira versão foi oficialmente lançada em setembro de 2014, sendo submetidas atualizações para a versão 1.1 em outubro e 1.2 em abril do ano seguinte. Na WWDC 2015 foi anunciada uma atualização mais importante para Swift 2.0, sendo disponibilizada em setembro do mesmo ano e se tornando uma linguagem de código aberto em dezembro. Swift 3.0 foi lançado em 13 de setembro de 2016.
+
 Atualmente, Swift encontra-se na sua versão 4.0, oficialmente lançada em 19 de setembro de 2017.
 De acordo com o próprio desenvolvedor, Swift foi influenciada por diversas linguagens, buscando inspiração principalmente nas seguintes: **Objective-C**, **Rust**, **Haskell**, **Ruby**, **Python**, **C#**, **CLU**.
 ## Classificação
