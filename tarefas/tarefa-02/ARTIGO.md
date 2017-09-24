@@ -281,16 +281,25 @@ if (house != null) {
 
 ```
 ## Conclusão
+
 Swift é uma linguagem inovadora que apresenta inumeras novas funcionalidades, mesmo assim não perde a simplicidade das linguagens na qual foi inspirada, tornando a vida dos programadores de Swift muitos mais fácil.
 Seja através da implementação de tipos opcionais, pela sua programação orientada a protocolos, ou de outras funcionalidades que oferecem um grande poder expressividade, Swift tem a capacidad de tornar códigos que antes eram complexos em outras linguagens, extremamente simples.
 
 ## Bibliografia
 
-https://pt.wikipedia.org/wiki/Swift_(linguagem_de_programa%C3%A7%C3%A3o)
-https://en.wikipedia.org/wiki/Comparison_of_multi-paradigm_programming_languages
-https://blog.novatec-gmbh.de/swift-2-introduction-comparison/
-https://blog.michaelckennedy.net/2014/11/26/comparison-of-python-and-apples-swift-programming-language-syntax/
-https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/
+[Swift-Wikipedia](https://pt.wikipedia.org/wiki/Swift_(linguagem_de_programa%C3%A7%C3%A3o))
+[Comparison of multi-paradigm programming languages-Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_multi-paradigm_programming_languages
+[Comparison of Swift 2](https://blog.novatec-gmbh.de/swift-2-introduction-comparison/)
+[Comparison of Python and Swift](https://blog.michaelckennedy.net/2014/11/26/comparison-of-python-and-apples-swift-programming-language-syntax/)
+[Documentation of Swift-Apple](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/)
+
+
+
+
+
+
+
+
 
 
 
