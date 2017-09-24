@@ -27,7 +27,7 @@ Swift é uma linguagem que possui características inspiradas nas principais lin
 De acordo com as pesquisas realizadas sobre sua versão 2.0, Swift possui um desempenho muito melhor do que o Objective-C e Python, além de possuir uma performance média quase na mesma velocidade de C++.
 
 ### Read/Write:
-O principal objetivo do swift é ser uma linguagem de fácil escrita, e isso pode ser observado pela simplicidade da linguagem, onde com apenas algumas linhas de código podemos escrever programas completos,Porém como ela apresenta alguns paradigmas diferentes das linguagens mais convencionais como (quais paradigmas) ,sua leitura pode acabar se tornando algo mais complicado em certos programas, e essa simplicidade dos códigos atrapalha aqueles que estão começando com a linguagem, tornando C e Java por exemplo linguagens de leitura mais fácil.Já quando falamos de escrita Swift é uma linguagem bastante simples assim como Python e Java já que a linguagem possui uma série de vantagens na sua sintaxe tornando a elaboração de códigos bem mais simples daqueles em C.
+O principal objetivo do swift é ser uma linguagem de fácil escrita, e isso pode ser observado pela simplicidade da linguagem, onde com apenas algumas linhas de código podemos escrever programas completos.Porém como ela apresenta alguns paradigmas diferentes das linguagens mais convencionais como (quais paradigmas) ,sua leitura pode acabar se tornando algo mais complicado em certos programas, tornando C e Java,por exemplo, linguagens de leitura mais fácil.Já quando falamos de escrita, Swift é uma linguagem bastante simples, assim como Python e Java, já que a linguagem possui uma série de vantagens na sua sintaxe tornando a elaboração de códigos bem mais simples daqueles em C.
 
 ``` swift
 
