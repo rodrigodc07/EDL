@@ -212,7 +212,7 @@ struct Car: Drivable, Reversible, Transport {
 }
 ```
 ### Tipos e Métodos Opcionais
-Em swift temos a implementação do tipo Um opcional é um tipo por conta própria, na verdade, um dos novos enums mais poderosos de Swift, ele apresenta dois valores opcional de retorno de encadeamento
+Em swift temos a implementação do opcional, que é um tipo por conta própria, na verdade, um dos novos enums mais poderosos de Swift, quando declaramos um tipo como opcional ele pode ter dois comportamentos:
 *	Se o opcional contém um 'valor', em seguida, chamando os seus bens relacionados, métodos e subscritos retorna seu valor.
 *	Se o opcional contém um valor "nulo" todas as suas suas propriedades relacionadas, métodos e subscritos retorna nil.
 Desde várias consultas para métodos, propriedades e subscritos são agrupados falta de uma cadeia irá afetar toda a cadeia e resulta em valor nil.
