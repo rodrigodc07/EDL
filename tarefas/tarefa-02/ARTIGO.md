@@ -304,6 +304,7 @@ if (house != null) {
 Swift é uma linguagem inovadora que apresenta inumeras novas funcionalidades, mesmo assim não perde a simplicidade das linguagens na qual foi inspirada, tornando a vida dos programadores de Swift muitos mais fácil.
 Seja através da implementação de tipos opcionais, pela sua programação orientada a protocolos, ou de outras funcionalidades que oferecem um grande poder expressividade, Swift tem a capacidad de tornar códigos que antes eram complexos em outras linguagens, extremamente simples.
 
+
 ## Bibliografia
 
 [Swift-Wikipedia](https://pt.wikipedia.org/wiki/Swift_(linguagem_de_programa%C3%A7%C3%A3o))
