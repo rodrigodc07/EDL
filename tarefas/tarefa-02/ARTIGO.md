@@ -13,6 +13,14 @@ De acordo com o próprio desenvolvedor, Swift foi influenciada por diversas ling
 ## Classificação
 Swift é uma linguagem de programação compilada e multiparadigma, sendo extremamente versátil e dando suporte aos seguintes tipos de programação:
 * Orientada a objetos
+Swift permite a criação de classes e todas as outras características de programação orientada a objetos como herança, encapsulamento e polimorfismo
+```swift
+class Person {
+    var firstName: String?
+    var lastName: String?
+    let gender = "female"
+}
+```
 * Funcional
 * Imperativa
 
