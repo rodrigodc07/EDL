@@ -12,8 +12,7 @@ Sua primeira versão foi oficialmente lançada em setembro de 2014, sendo submet
 De acordo com o próprio desenvolvedor, Swift foi influenciada por diversas linguagens, buscando inspiração principalmente nas seguintes: **Objective-C**, **Rust**, **Haskell**, **Ruby**, **Python**, **C#**, **CLU**.
 ## Classificação
 Swift é uma linguagem de programação compilada e multiparadigma, sendo extremamente versátil e dando suporte aos seguintes tipos de programação:
-* Orientada a objetos
-Swift permite a criação de classes e todas as outras características de programação orientada a objetos como herança, encapsulamento e polimorfismo
+* Orientada a objetos:Swift permite a criação de classes e todas as outras características de programação orientada a objetos como herança, encapsulamento e polimorfismo
 ```swift
 class Person {
     var firstName: String?
@@ -21,8 +20,14 @@ class Person {
     let gender = "female"
 }
 ```
-* Funcional
-* Imperativa
+* Funcional: Swift também tem suporte a conceitos funcionais como a criar de funções para evitar repetição de código e facilitar a manutenção, e recursividade.
+```swift
+funct bigNumbersOnly (item:Int) -> Bool {
+    return item > 3
+}
+```
+* Imperativa: Swift usa declarações que alteram o estado de um programa, um programa imperativo consiste em comandos para o computador executar, muito parecido com a linguagem natural. 
+
 
 Além disso, trata-se de uma linguagem de uso geral, podendo ser usada para desenvolver diversos tipos de software para as plataformas compatíveis, e que possui uma tipagem forte e estática, porém possuindo também inferência de tipo, como podemos ver no código abaixo.
 ```swift
